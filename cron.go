@@ -10,7 +10,7 @@ import (
 var Cron *cron.Cron
 
 func init() {
-	viper.SetDefault("cron.enabled", false)
+	viper.SetDefault("cron.enabled", true)
 }
 
 func Run() {
